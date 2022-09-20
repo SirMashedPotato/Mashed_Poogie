@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Poogie_ApparelBase]========== -->
+	<ThingDef ParentName="ApparelMakeableBase" Name="Mashed_Poogie_ApparelBase" Abstract="True">
+		<descriptionHyperlinks>
+			<ThingDef>Mashed_Poogie</ThingDef>
+		</descriptionHyperlinks>
+		<techLevel>Medieval</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_TailorsBench</li>
+				<li MayRequire="SirMashedPotato.Lynians">Mashed_Lynian_CraftingBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToMake>1600</WorkToMake>
+			<Mass>2</Mass>
+			<StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+			<EquipDelay>1.5</EquipDelay>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Animal_Apparel</li>
+		</thingCategories>
+		<generateAllowChance>0</generateAllowChance>
+		<apparel>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				<li>Animal</li>
+				<li>AnimalCUTOUTCOMPLEX</li>
+				<li>Mashed_Poogie</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+	</ThingDef>
+	<!-- ==========[Mashed_Poogie_Apparel_EmperorsNewDuds]========== -->
+	<ThingDef ParentName="Mashed_Poogie_ApparelBase">
+		<defName>Mashed_Poogie_Apparel_EmperorsNewDuds</defName>
+		<label>emperors new duds</label>
+		<description>Clothes fit for royalty. A rather fashionable choice, and popular amongst many.</description>
+		<graphicData>
+			<texPath>Things/Pawn/AnimalApparel/Mashed_Poogie_EmperorsNewDuds/EmperorsNewDuds_Item</texPath>
+		</graphicData>
+		<statBases>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<costStuffCount>20</costStuffCount>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/AnimalApparel/Mashed_Poogie_EmperorsNewDuds/EmperorsNewDuds</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+</Defs>

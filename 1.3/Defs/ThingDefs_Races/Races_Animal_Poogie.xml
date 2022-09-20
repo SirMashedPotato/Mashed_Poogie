@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>Mashed_Poogie_Poogie</defName>
+		<defName>Mashed_Poogie</defName>
 		<label>poogie</label>
 		<description>A smaller breed of pig, selectively bred for it's small size, and friendly personality. Poogie make for great companion animals, and can often be found wandering around villages befriending travellers.</description>
 		<statBases>
@@ -115,9 +115,9 @@
 		</tradeTags>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Mashed_Poogie_Poogie</defName>
+		<defName>Mashed_Poogie</defName>
 		<label>poogie</label>
-		<race>Mashed_Poogie_Poogie</race>
+		<race>Mashed_Poogie</race>
 		<combatPower>30</combatPower>
 		<ecoSystemWeight>0.3</ecoSystemWeight>
 		<lifeStages>
