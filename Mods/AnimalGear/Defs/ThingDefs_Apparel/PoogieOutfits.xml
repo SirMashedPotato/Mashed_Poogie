@@ -18,7 +18,6 @@
 		</recipeMaker>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
@@ -61,13 +60,14 @@
 	<ThingDef ParentName="Mashed_Poogie_ApparelBase">
 		<defName>Mashed_Poogie_Apparel_EmperorsNewDuds</defName>
 		<label>emperors new duds</label>
-		<description>Clothes fit for royalty. A rather fashionable choice, and popular amongst many.</description>
+		<description>Clothes fit for royalty, specially designed for poogie. A rather fashionable choice, and popular amongst many, though doesn't offer much in the way of protection.</description>
 		<graphicData>
 			<texPath>Things/Pawn/AnimalApparel/Mashed_Poogie_EmperorsNewDuds/EmperorsNewDuds_Item</texPath>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<statBases>
-			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
 		</statBases>
 		<costStuffCount>20</costStuffCount>
 		<costList>
@@ -75,6 +75,24 @@
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/Pawn/AnimalApparel/Mashed_Poogie_EmperorsNewDuds/EmperorsNewDuds</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	<!-- ==========[Mashed_Poogie_Apparel_MemorialStripes]========== -->
+	<ThingDef ParentName="Mashed_Poogie_ApparelBase">
+		<defName>Mashed_Poogie_Apparel_MemorialStripes</defName>
+		<label>memorial stripes</label>
+		<description>A stripey outfit, specially designed for poogie. Helps to keep your beloved poogie warm during winter, and cool during summer, all while looking rather fashionable.</description>
+		<graphicData>
+			<texPath>Things/Pawn/AnimalApparel/Mashed_Poogie_MemorialStripes/MemorialStripes_Item</texPath>
+		</graphicData>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<costStuffCount>30</costStuffCount>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/AnimalApparel/Mashed_Poogie_MemorialStripes/MemorialStripes</wornGraphicPath>
 		</apparel>
 	</ThingDef>
 </Defs>
