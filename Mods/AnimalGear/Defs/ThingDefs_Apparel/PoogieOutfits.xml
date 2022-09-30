@@ -30,8 +30,8 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
-		<thingCategories>
-			<li>Animal_Apparel</li>
+		<thingCategories Inherit="False">
+			<li>Mashed_Poogie_Apparel</li>
 		</thingCategories>
 		<generateAllowChance>0</generateAllowChance>
 		<apparel>

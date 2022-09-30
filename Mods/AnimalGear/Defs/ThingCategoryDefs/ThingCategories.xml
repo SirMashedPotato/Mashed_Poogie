@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>Mashed_Poogie_Apparel</defName>
+		<label>Poogie apparel</label>
+		<parent>Animal_Apparel</parent>
+	</ThingCategoryDef>
+</Defs>
