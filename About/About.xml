@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Mashed's Poogie</name>
-	<packageId>SirMashedPotato.Poogie</packageId>
+	<name>Mashed's Poogie and Friends</name>
+	<packageId>SirMashedPotato.PoogieAndFriends</packageId>
 	<author>SirMashedPotato</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<description>It adds poogie.
+	<description>It adds poogie, and friends.
 	</description>
 	<loadAfter>
 		<li>brrainz.harmony</li>
