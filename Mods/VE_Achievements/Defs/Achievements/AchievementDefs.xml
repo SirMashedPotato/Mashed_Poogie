@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Base]========== -->
+	<AchievementsExpanded.AchievementDef Name="Mashed_AchievementPoogie_Base" Abstract="True">
+		<bgtexPath>Achievements/Mashed_AchievementBackground</bgtexPath>
+		<tab>Mashed_AchievementsTab</tab>
+	</AchievementsExpanded.AchievementDef>
+	<!-- ==========[Colonists]========== -->
+	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementPoogie_Base">
+		<defName>Mashed_AchievementPoogie_OnePoogie</defName>
+		<label>Friend of the Colony</label>
+		<description>Poogers</description>
+		<tracker Class="AchievementsExpanded.KindDefTracker">
+			<kindDefs>
+				<li>
+					<key>Mashed_Poogie</key>
+					<value>1</value>
+				</li>
+			</kindDefs>
+		</tracker>
+		<texPath>Achievements/Mashed_AchievementPoogie_OnePoogie</texPath>
+		<points>5</points>
+	</AchievementsExpanded.AchievementDef>
+</Defs>
