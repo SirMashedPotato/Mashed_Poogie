@@ -7,14 +7,10 @@
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<description>It adds poogie.
+	<description>It adds poogie from Monster Hunter, a friendly breed of pig that can dig up random items roughly once a day.\n\n- Based on the Monster Hunter series by Capcom.
 	</description>
 	<loadAfter>
-		<li>brrainz.harmony</li>
 		<li>Ludeon.RimWorld</li>
-		<li>Ludeon.RimWorld.Ideology</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-		<li>oskarpotocki.vanillafactionsexpanded.core</li>
 		<li>vanillaexpanded.achievements</li>
 		<li>Dylan.AnimalGear</li>
 	</loadAfter>

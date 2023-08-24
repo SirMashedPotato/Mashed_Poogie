@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/ThinkTreeDef[defName="Animal"]/thinkRoot/subNodes/li[@Class="ThinkNode_ConditionalHasFaction"]/subNodes/li[@Class="ThinkNode_ChancePerHour_Nuzzle"]</xpath>
+		<value>
+			<li Class="ThinkNode_Subtree">
+				<treeDef>Mashed_Poogie_SniffOutItem</treeDef>
+			</li>
+		</value>
+	</Operation>
+</Patch>

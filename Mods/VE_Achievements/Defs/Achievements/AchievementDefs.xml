@@ -7,18 +7,14 @@
 	</AchievementsExpanded.AchievementDef>
 	<!-- ==========[Colonists]========== -->
 	<AchievementsExpanded.AchievementDef ParentName="Mashed_AchievementPoogie_Base">
-		<defName>Mashed_AchievementPoogie_OnePoogie</defName>
-		<label>Friend of the Colony</label>
-		<description>Poogers</description>
-		<tracker Class="AchievementsExpanded.KindDefTracker">
-			<kindDefs>
-				<li>
-					<key>Mashed_Poogie</key>
-					<value>1</value>
-				</li>
-			</kindDefs>
+		<defName>Mashed_AchievementPoogie_BondPoogie</defName>
+		<label>Professional Poogie Petter</label>
+		<description>Have a colonist form a bond with a poogie</description>
+		<tracker Class="AchievementsExpanded.AnimalBondedTracker">
+			<kindDef>Mashed_Poogie</kindDef>
+			<count>1</count>
 		</tracker>
-		<texPath>Achievements/Mashed_AchievementPoogie_OnePoogie</texPath>
-		<points>5</points>
+		<texPath>Achievements/Mashed_AchievementPoogie_BondPoogie</texPath>
+		<points>15</points>
 	</AchievementsExpanded.AchievementDef>
 </Defs>
