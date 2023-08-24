@@ -95,4 +95,24 @@
 			<wornGraphicPath>Things/Pawn/AnimalApparel/Mashed_Poogie_MemorialStripes/MemorialStripes</wornGraphicPath>
 		</apparel>
 	</ThingDef>
+	<!-- ==========[Mashed_Poogie_Apparel_MafumofuJumpsuit]========== -->
+	<!--
+	<ThingDef ParentName="Mashed_Poogie_ApparelBase">
+		<defName>Mashed_Poogie_Apparel_MafumofuJumpsuit</defName>
+		<label>mafumofu jumpsuit</label>
+		<description>A cozy jumpsuit, specially designed for poogie. Helps to keep your beloved poogie warm, on even the coldest of nights.</description>
+		<graphicData>
+			<texPath>Things/Pawn/AnimalApparel/Mashed_Poogie_MafumofuJumpsuit/MafumofuJumpsuit_Item</texPath>
+		</graphicData>
+		<statBases>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.4</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<costStuffCount>45</costStuffCount>
+		<apparel>
+			<wornGraphicPath>Things/Pawn/AnimalApparel/Mashed_Poogie_MafumofuJumpsuit/MafumofuJumpsuit</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	-->
 </Defs>
