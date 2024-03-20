@@ -3,15 +3,16 @@
 	<name>Mashed's Poogie</name>
 	<packageId>SirMashedPotato.Poogie</packageId>
 	<author>SirMashedPotato</author>
-	<modVersion>1.0.1</modVersion>
+	<modVersion>1.0.2</modVersion>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Mashed_Poogie_ModIcon</modIconPath>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<description>It adds poogie from Monster Hunter, a friendly breed of pig that can dig up random items roughly once a day.\n\n- Based on the Monster Hunter series by Capcom.
 	</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
-		<li>vanillaexpanded.achievements</li>
 		<li>Dylan.AnimalGear</li>
 	</loadAfter>
 </ModMetaData>
