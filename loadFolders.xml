@@ -10,5 +10,6 @@
 		<li>Common</li>
 		<li>1.5</li>
 		<li IfModActive="Dylan.AnimalGear">Mods/AnimalGear</li>
+		<li IfModActive="vanillaexpanded.achievements">Mods/VE_Achievements</li>
 	</v1.5>
 </loadFolders>
