@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 	<Mashed_Poogie_DugUpItem>{0} just dug up {1}!</Mashed_Poogie_DugUpItem>
+	<Mashed_Poogie_DugUpItemNew>{0_labelShort} just dug up {1_label}!</Mashed_Poogie_DugUpItemNew>
 </LanguageData>
