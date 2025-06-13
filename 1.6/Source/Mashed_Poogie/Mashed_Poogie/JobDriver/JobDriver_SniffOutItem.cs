@@ -47,16 +47,18 @@ namespace Mashed_Poogie
         private void SpawnItem()
         {
             ThingDef thingDef = DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.category == ThingCategory.Item && !x.IsCorpse && !x.Minifiable && x.BaseMarketValue > 1).RandomElementByWeight(y => 1 / y.BaseMarketValue);
-            Thing thing = ThingMaker.MakeThing(thingDef, null);
+
+            ThingDef stuffDef = null;
+            if (thingDef.MadeFromStuff)
+            {
+                stuffDef = GenStuff.RandomStuffByCommonalityFor(thingDef);
+            }
+            Log.Message("stuff = " + stuffDef + ", default = " + thingDef.defaultStuff);
+            Thing thing = ThingMaker.MakeThing(thingDef, stuffDef);
 
             if (thingDef.stackLimit > 1)
             {
                 thing.stackCount = Rand.RangeInclusive(1, thingDef.stackLimit / 4);
-            }
-
-            if (!thingDef.MadeFromStuff && !thingDef.stuffCategories.NullOrEmpty())
-            {
-                thing.SetStuffDirect(DefDatabase<ThingDef>.AllDefsListForReading.Where(x => x.stuffCategories != null && x.stuffCategories.Any(y => thingDef.stuffCategories.Contains(y))).RandomElement());
             }
 
             GenSpawn.Spawn(thing, TargetLocA, Map, WipeMode.Vanish);
