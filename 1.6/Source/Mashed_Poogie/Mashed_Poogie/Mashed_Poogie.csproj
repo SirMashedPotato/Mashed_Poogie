@@ -55,9 +55,14 @@
   <ItemGroup>
     <Compile Include="DefOf\JobDefOf.cs" />
     <Compile Include="DefOf\TerrainAffordanceDefOf.cs" />
+    <Compile Include="Dialog\Dialog_OutfitColorPicker.cs" />
     <Compile Include="JobDriver\JobDriver_SniffOutItem.cs" />
     <Compile Include="JobGiver\JobGiver_SniffOutItem.cs" />
+    <Compile Include="PawnRenderNodeWorker\PawnRenderNodeWorker_PoogieOutfit.cs" />
+    <Compile Include="PawnRenderNode\PawnRenderNode_PoogieOutfit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThingComp\Comp_SelectableOutfit.cs" />
+    <Compile Include="ThingComp\Props\CompProperties_SelectableOutfit.cs" />
     <Compile Include="ThinkNode\ThinkNode_ConditionalBonded.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- ==========[Mashed_Poogie_EmperorsNewDuds]==========-->
+	<HediffDef>
+		<defName>Mashed_Poogie_EmperorsNewDuds</defName>
+		<label>emperors new duds</label>
+		<description>Clothes fit for royalty, specially designed for poogie. A rather fashionable choice, and popular amongst many, though doesn't offer much in the way of protection.</description>
+		<duplicationAllowed>false</duplicationAllowed>
+		<renderNodeProperties>
+			<li>
+				<debugLabel>Emperors new duds</debugLabel>
+				<nodeClass>Mashed_Poogie.PawnRenderNode_PoogieOutfit</nodeClass>
+				<workerClass>Mashed_Poogie.PawnRenderNodeWorker_PoogieOutfit</workerClass>
+				<texPath>Things/Pawn/AnimalApparel/Mashed_Poogie_EmperorsNewDuds/EmperorsNewDuds_Mashed_Poogie</texPath>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<overlayLayer>Body</overlayLayer>
+				<baseLayer>2</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<pawnType>NonHumanlikeOnly</pawnType>
+			</li>
+		</renderNodeProperties>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>3</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-3</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+	<!-- ==========[Mashed_Poogie_MemorialStripes]==========-->
+	<HediffDef>
+		<defName>Mashed_Poogie_MemorialStripes</defName>
+		<label>memorial stripes</label>
+		<description>A stripey outfit, specially designed for poogie. Helps to keep your beloved poogie warm during winter, and cool during summer, all while looking rather fashionable.</description>
+		<duplicationAllowed>false</duplicationAllowed>
+		<renderNodeProperties>
+			<li>
+				<debugLabel>Memorial stripes</debugLabel>
+				<nodeClass>Mashed_Poogie.PawnRenderNode_PoogieOutfit</nodeClass>
+				<workerClass>Mashed_Poogie.PawnRenderNodeWorker_PoogieOutfit</workerClass>
+				<texPath>Things/Pawn/AnimalApparel/Mashed_Poogie_MemorialStripes/MemorialStripes_Mashed_Poogie</texPath>
+				<shaderTypeDef>CutoutComplex</shaderTypeDef>
+				<overlayLayer>Body</overlayLayer>
+				<baseLayer>2</baseLayer>
+				<rotDrawMode>Fresh, Rotting</rotDrawMode>
+				<pawnType>NonHumanlikeOnly</pawnType>
+			</li>
+		</renderNodeProperties>
+		<stages>
+			<li>
+				<statOffsets>
+					<ComfyTemperatureMax>10</ComfyTemperatureMax>
+					<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

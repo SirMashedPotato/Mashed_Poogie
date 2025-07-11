@@ -2,4 +2,8 @@
 <LanguageData>
 	<Mashed_Poogie_DugUpItem>{0} just dug up {1}!</Mashed_Poogie_DugUpItem>
 	<Mashed_Poogie_DugUpItemNew>{0_labelShort} just dug up {1_label}!</Mashed_Poogie_DugUpItemNew>
+	<Mashed_Poogie_ChangeOutfit_Label>Change outfit</Mashed_Poogie_ChangeOutfit_Label>
+	<Mashed_Poogie_ChangeOutfit_Desc>Change the outfit worn by {0_labelShort}.</Mashed_Poogie_ChangeOutfit_Desc>
+	<Mashed_Poogie_ChangeColour>Change outfit colour</Mashed_Poogie_ChangeColour>
+	<Mashed_Poogie_NoOutfit>No outfit</Mashed_Poogie_NoOutfit>
 </LanguageData>

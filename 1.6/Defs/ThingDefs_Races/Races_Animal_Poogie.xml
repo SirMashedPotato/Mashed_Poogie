@@ -32,6 +32,14 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<comps>
+			<li Class="Mashed_Poogie.CompProperties_SelectableOutfit">
+				<outfitDefs>
+					<li>Mashed_Poogie_EmperorsNewDuds</li>
+					<li>Mashed_Poogie_MemorialStripes</li>
+				</outfitDefs>
+			</li>
+		</comps>
 		<race>
 			<body>QuadrupedAnimalWithHooves</body>
 			<petness>1</petness>
